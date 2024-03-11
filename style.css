@@ -1,0 +1,30 @@
+ul li {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    border-bottom: 1px solid #fa0505;
+    padding: 10px 0px;
+}
+
+ul li a:hover {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(241, 8, 8);
+}
+
+.Sidebar {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: aqua;
+}
